@@ -160,7 +160,7 @@ body {
     
 }
 .IMGallery img:hover {
-    transform: scale(1.2, 1.3);
+    transform: scale(1.02, 1.03);
     transition: 0.5s;
     
 }
@@ -171,7 +171,6 @@ body {
     justify-content: space-around;
     background-color: #F8EAE1;
     padding-bottom: 40px;
-    padding-top: 40px;
     
 }
 .IMGallery2 img {
@@ -181,7 +180,7 @@ body {
     
 }
 .IMGallery2 img:hover {
-    transform: scale(1.2, 1.3);
+    transform: scale(1.02, 1.03);
     transition: 0.5s;
     
 }
