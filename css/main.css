@@ -124,10 +124,14 @@ body {
     display: flex;
 
 }
-.responsivIMG {
+.baner {
     width: 100%;
     height: auto;
+    background-color: rgb(71, 70, 68);
+    padding: 50px;
+    margin-top: 20px;
 }
+
 
 footer {
     display: flex;
