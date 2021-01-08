@@ -92,7 +92,7 @@ body {
     background-color: #F8EAE1;
     margin: 20px;
     margin-bottom: 0;
-    box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+    
     
 }
 
@@ -104,7 +104,7 @@ body {
 .in-flex .img img {
     margin: 20px;
     border-radius: 4px;
-    box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+    
 }
 
 .in-flex p {
@@ -113,7 +113,7 @@ body {
     background-color: #F8EAE1;
     margin: 20px;
     border-radius: 4px;
-    box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+    
 }
 .in-flex a {
     display: flex;
@@ -164,26 +164,7 @@ body {
     transition: 0.5s;
     
 }
-
-.IMGallery2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #F8EAE1;
-    padding-bottom: 40px;
     
-}
-.IMGallery2 img {
-    margin-bottom: 20px;
-    box-shadow: 0px 8px 8px rgba(0,0,0,0.5);
-    transition: 0.3s;
-    
-}
-.IMGallery2 img:hover {
-    transform: scale(1.02, 1.03);
-    transition: 0.5s;
-    
-}
 .baner {
     display:flex;
     justify-content: space-around;
