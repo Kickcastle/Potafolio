@@ -57,6 +57,8 @@ body {
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: justify;
 }
 
@@ -109,7 +111,7 @@ body {
 
 .in-flex p {
     text-align: justify;
-    padding: 25px;
+    
     background-color: #F8EAE1;
     margin: 20px;
     border-radius: 4px;
@@ -204,9 +206,9 @@ footer .lista1 {
 }
 footer ul {
     padding: 0;
+    
 }
-
-footer li{
+footer li{ 
     list-style: none;
     font-size: 12px;
     color: rgb(158, 157, 157);
