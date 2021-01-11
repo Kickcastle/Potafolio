@@ -92,9 +92,12 @@ body {
 }
 
 .containerGaleria{
-    display: inline;
-    margin-left: 120px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 .in-flex .containerGaleria{
     display: flex;
@@ -121,8 +124,8 @@ body {
 
 .in-flex .img{
     display: flex;
-    min-width: 250px;
-        
+    max-width: 100%;
+    max-height: 100%;
 }
 .in-flex .img img {
     margin: 20px;
