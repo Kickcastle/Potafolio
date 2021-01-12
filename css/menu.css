@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://s2.best-wallpaper.net/wallpaper/1600x1200/1408/United-Kingdom-England-lake-water-wooden-bridge-evening_1600x1200.jpg);
+    background-color: #097695;
     margin: 0;
 }
 .list3 ul {
@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 15px;
     margin-bottom: 100px;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.6);
 }
 .list3 ul li:hover{
     color: #86bbca;
@@ -38,7 +38,7 @@ p {
 .formulario form{
     border-radius: 15px;
     padding: 10px;
-    background-color: rgba(255,255,255,0.4);
+    background-color:rgba(255,255,255,0.6);
     box-shadow: 0px 5px 5px rgba(0,0,0,0.4);
 }
 input{
@@ -63,4 +63,6 @@ label {
 }
 .bottones input{
     border: 0;
+    margin: 10px;
+    cursor: pointer;
 }
