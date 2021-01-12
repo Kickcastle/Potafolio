@@ -30,6 +30,7 @@ p {
     text-align: center;
     font-family: Impact;
     font-size: 30px;
+    color: rgb(210, 215, 233);
 }
 .formulario{
     display: flex;

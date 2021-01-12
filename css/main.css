@@ -30,7 +30,7 @@ body {
     color: black;
 }
 .logo {
-    width: 100%;
+    width: 99%;
     height: auto;
 }
 .header {
@@ -218,7 +218,7 @@ body {
 footer {
     display: flex;
     height:auto;
-    min-width: 250px;
+    width: 100%;
     background-color: #d4d4d4;
     padding-top: 20px;
     justify-content: space-around;
