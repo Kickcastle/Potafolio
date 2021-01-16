@@ -1,9 +1,9 @@
 body {
-    background-color: #097695;
+    background-image: linear-gradient(to right, #368297 50%, #FFD200 50% );
     margin: 0;
 }
 .list3 ul {
-    height: 100%;
+    height: auto;
     min-width: 250px;
     text-align: right;
     margin: 0;
@@ -26,21 +26,23 @@ body {
     text-decoration: none;
     color: black;
 }
-p {
+.tituloForm p {
     text-align: center;
     font-family: Impact;
     font-size: 30px;
-    color: rgb(210, 215, 233);
+    color: rgb(255, 255, 255);
 }
 .formulario{
     display: flex;
     justify-content: center;
+    height: auto;
+    min-width: 90%;
 }
 .formulario form{
     border-radius: 40%;
     border-top-left-radius: 0;
     border-bottom-right-radius: 0;
-    padding: 35px;
+    padding: 50px;
     background-color:rgba(255,255,255,0.6);
     box-shadow: 2px 3px 7px rgba(0,0,0,0.4);
 }
@@ -63,9 +65,16 @@ label {
 .bottones {
     display: flex;
     justify-content: center;
+    transform:scale(1.05, 1.05);
 }
 .bottones input{
     border: 0;
     margin: 10px;
-    cursor: pointer;
+    cursor: pointer; 
+}
+.bottones :hover {
+    transform:scale(1.05, 1.05);
+    transition: 0.3s;
+    border-radius: 15px;
+    box-shadow: 2px 3px 7px rgba(0,0,0,0.4);
 }
