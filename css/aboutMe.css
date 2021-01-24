@@ -2,6 +2,9 @@ body {
     background-image: linear-gradient(to right, #368297 50%, #FFD200 50% );
     margin: 0;
 }
+
+/*Nav*/
+
 .list3 ul {
     height: auto;
     min-width: 250px;
@@ -10,6 +13,7 @@ body {
     padding: 15px;
     margin-bottom: 60px;
     background-color: rgba(255,255,255,0.6);
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
 }
 .list3 ul li:hover{
     color: #fff;
@@ -26,12 +30,16 @@ body {
     text-decoration: none;
     color: black;
 }
+
+/*Main*/
+
 .container-General{
     margin: auto;
-    background: rgba(255,255,255,0.6);
+    background: rgba(255, 255, 255, 0.6);
     max-width: 1000px;
     width: 90%;
-    
+    border-radius: 10px;
+    margin-bottom: 200px;
 }
 
 .titleBox p{
@@ -52,7 +60,7 @@ body {
     text-align: justify;
 }
 .container-text > p{
-    width: 60%;
+    width: 100%;
     padding: 20px;
     overflow: hidden;
 }
@@ -67,3 +75,57 @@ body {
     height: 200px;
     width: 200px;
 }
+
+/*Footer*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    height:auto;
+    width: 100%;
+    background-color: #d4d4d4;
+    padding-top: 20px;
+    overflow: hidden;
+}
+footer .lista1 {
+    display: flex;
+    width: 50%;
+    min-width: 674px;
+}
+.icon{
+    padding-top: 18px;
+
+}
+.icon img{
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+
+}
+footer ul {
+    padding: 0;
+}
+footer li{ 
+    list-style: none;
+    font-size: 12px;
+    color: rgb(158, 157, 157);
+    margin: 14px;
+    padding-left: 5px;
+    border-left: solid grey 3px;
+}
+footer a {
+    text-decoration: none;
+}
+
+/* Pie de pagina */
+
+.footerResg {
+    font-size: 12px;
+    background-color: #d4d4d4;
+    color: rgb(158, 157, 157);
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}    
