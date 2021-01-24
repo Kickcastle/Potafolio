@@ -13,7 +13,7 @@ body {
     padding: 15px;
     margin-bottom: 60px;
     background-color: rgba(255,255,255,0.6);
-    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);    
 }
 .list3 ul li:hover{
     color: #fff;
@@ -40,6 +40,7 @@ body {
     width: 90%;
     border-radius: 10px;
     margin-bottom: 200px;
+    box-shadow: 2px 3px 7px rgba(0,0,0,0.4);
 }
 
 .titleBox p{
@@ -83,7 +84,7 @@ footer {
     flex-wrap: wrap;
     height:auto;
     width: 100%;
-    background-color: #d4d4d4;
+    background-color: #d4d4d4f1;
     padding-top: 20px;
     overflow: hidden;
 }
@@ -109,7 +110,7 @@ footer ul {
 footer li{ 
     list-style: none;
     font-size: 12px;
-    color: rgb(158, 157, 157);
+    color: rgb(112, 111, 111);
     margin: 14px;
     padding-left: 5px;
     border-left: solid grey 3px;
@@ -122,8 +123,8 @@ footer a {
 
 .footerResg {
     font-size: 12px;
-    background-color: #d4d4d4;
-    color: rgb(158, 157, 157);
+    background-color: #d4d4d4f1;
+    color: rgb(112, 111, 111);
     padding: 30px;
     padding-top: 50px;
     padding-bottom: 10px;

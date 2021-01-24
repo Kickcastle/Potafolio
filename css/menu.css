@@ -26,17 +26,26 @@ body {
     text-decoration: none;
     color: black;
 }
+
+/* Formulario Title*/
+
 .tituloForm p {
     text-align: center;
     font-family: Impact;
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
+
+/* inside form */
+
 .formulario{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 90%;
     height: auto;
-    min-width: 90%;
+    margin: auto;
 }
 .formulario form{
     border-radius: 40%;
@@ -45,6 +54,7 @@ body {
     padding: 50px;
     background-color:rgba(255,255,255,0.6);
     box-shadow: 2px 3px 7px rgba(0,0,0,0.4);
+    
 }
 input{
     border: 0;
@@ -65,12 +75,12 @@ label {
 .bottones {
     display: flex;
     justify-content: center;
-    transform:scale(1.05, 1.05);
 }
 .bottones input{
     border: 0;
     margin: 10px;
-    cursor: pointer; 
+    cursor: pointer;
+    transition: 0.9s; 
 }
 .bottones :hover {
     transform:scale(1.05, 1.05);
