@@ -4,7 +4,7 @@ body {
 }
 .list3 ul {
     height: auto;
-    min-width: 250px;
+    min-width: 350px;
     text-align: right;
     margin: 0;
     padding: 15px;
@@ -37,15 +37,20 @@ body {
 }
 
 /* inside form */
-
+.formdelform {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
 .formulario{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 50%;
     height: auto;
-    margin: auto;
+    margin-bottom: 50px;
 }
 .formulario form{
     border-radius: 40%;
@@ -71,6 +76,10 @@ label {
     font-family: Impact;
     padding: 5px;
 
+}
+#mensajeria {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.336);
 }
 .bottones {
     display: flex;
