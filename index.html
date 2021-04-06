@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="css/main.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="contenido/Final.png" type="image/x-icon">
+        <link href="css/lightbox.min.css" rel="stylesheet" />
     </head>
     <body>
         <div class="list3">
@@ -57,9 +58,9 @@
                 
             </div>
             <div class="IMGallery">
-                <img src="contenido/Cam1.jpg" alt="" height="400px" width="280px">
-                <img src="contenido/Cam2.jpg" alt="" height="400px" width="280px">
-                <img src="contenido/Bar Mitsi logo.jpg" alt="" height="400px" width="280px" >
+                <a href="contenido/Cam1.jpg" data-lightbox="roadtrip"><img src="contenido/Cam1.jpg" alt="" height="400px" width="280px"></a>
+                <a href="contenido/Cam2.jpg" data-lightbox="roadtrip"><img src="contenido/Cam2.jpg" alt="" height="400px" width="280px"></a>
+                <a href="contenido/Bar Mitsi logo.jpg" alt="" height="410px" width="280px" data-lightbox="roadtrip"><img src="contenido/Bar Mitsi logo.jpg" alt="" height="400px" width="280px"></a>
                 
             </div>
         </div>
@@ -104,6 +105,8 @@
         </footer>
 
         <div class="footerResg">Todos los derechos reservados © Heen|developer 2020</div>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
 
     </body>
 </html>
