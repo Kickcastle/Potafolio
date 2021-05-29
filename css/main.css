@@ -232,6 +232,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
 }
 
 
@@ -318,13 +319,16 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px;
+    padding-bottom: 30px;
+    margin-top: 50px;
     
 }
 .prueba {
     width: 100px;
     height: 100px;
     background-color: royalblue;
-    border: 0;
+    border: solid 3px rgb(37, 37, 37);
+    border-radius: 10px;
 }
 .proff {
     width: 100%;
