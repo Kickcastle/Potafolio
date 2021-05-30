@@ -84,7 +84,8 @@ body {
   
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #ffe366;
+    color: white;
     border-radius: 10px;
 }
 
@@ -236,7 +237,7 @@ body {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .imggaleria {
         display: none;
     }
@@ -319,16 +320,26 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     margin-top: 50px;
-    
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 10px;
+    background: rgb(49, 49, 49);
 }
 .prueba {
     width: 100px;
     height: 100px;
-    background-color: royalblue;
-    border: solid 3px rgb(37, 37, 37);
-    border-radius: 10px;
+    
+}
+.prueba img {
+    border-radius: 8px;
+    border: 0;
+    text-decoration: none;
+}
+.prueba img:hover  {
+    border: solid rgba(255, 255, 255, 0.534) 1px;
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.6);
 }
 .proff {
     width: 100%;
@@ -369,10 +380,15 @@ body {
 
 @media only screen and (min-width: 600px) {
     .prueba {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
+        
     }
-    
+    .container-img222 {
+        margin-left: 200px;
+        margin-right: 200px;
+        
+    }
 }
 
 /* Barra negra entre galeria y footer''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */

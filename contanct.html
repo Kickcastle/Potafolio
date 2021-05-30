@@ -16,20 +16,32 @@
             <a href="#"><li>Projects</li></a>
         </ul>
     </div>
+    <!-- Para el uso movil -->
+    <div class="nav">
+        <div class="dropdown">
+            <img src="contenido/boton-de-menu-de-tres-lineas-horizontales.png" width="30px" height="30px" class="dropbtn" >
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="contanct.html">Contact</a>
+                <a href="aboutMe.html">About me</a>
+                <a href="projects.html">Projects></a>
+            </div>
+        </div>
+    </div>
     <div class="tituloForm">
         <p>CONTACT </p>
     </div>
     <div class="formdelform">
         <div class="formulario">
             <form action="mailto:heen.ventura@hotmail.com" enctype="text/plain" method="POST">
-                <label for="Nombre">Name:</label><br/>
-                <input type="text" name="Nombre" size="40"><br/>
-                <label for="Apellido">Last Name:</label><br/>
-                <input type="text" name="Apellido" size="40"><br/>
-                <label for="e-mail">E-mail:</label><br/>
-                <input type="text" name="e-mail" size="40"><br/>
-                <label for="Mensaje">Message:</label><br/>
-                <textarea name="Mensaje" id="mensajeria" cols="40" rows="10"></textarea><br/>
+                <label for="Nombre">Name</label><br/>
+                <input type="text" name="Nombre" size="40" required placeholder="Escriba su nombre" ><br/>
+                <label for="Apellido">Last Name</label><br/>
+                <input type="text" name="Apellido" size="40" required placeholder="Escriba sus apellidos" ><br/>
+                <label for="e-mail">E-mail</label><br/>
+                <input type="text" name="e-mail" size="40" required placeholder="Correo electronico" ><br/>
+                <label for="Mensaje">Message</label><br/>
+                <textarea name="Mensaje" id="mensajeria" cols="40" required rows="10" placeholder="Escriba un mensaje"></textarea><br/>
                 <div class="bottones">
                     <input type="submit" value="Send">
                     <input type="reset" value="Reset">
@@ -37,5 +49,6 @@
             </form>
         </div>
     </div>
+
 </body>
 </html>
