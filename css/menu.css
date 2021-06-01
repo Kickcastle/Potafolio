@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right, #368297 50%, #FFD200 50% );
+    background: #47b3d1;
     margin: 0;
 }
 .list3 ul {
@@ -138,7 +138,8 @@ input{
     border-bottom: solid 1px rgb(107, 107, 107);
     background: none;
     margin-bottom: 10px;
-    height: 25px;
+    height: 30px;
+    padding: 5px;
 }
 .formulario p input {
     border: 0;
@@ -151,8 +152,10 @@ label {
 
 }
 #mensajeria {
-    border: 0;
-    background-color: rgba(255, 255, 255, 0.562);
+    border: solid 1px rgb(49, 49, 49);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
 }
 .bottones {
     display: flex;

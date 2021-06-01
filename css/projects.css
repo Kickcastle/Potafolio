@@ -1,5 +1,8 @@
 body {
-    background-image: linear-gradient(to right, #368297 50%, #FFD200 50% );
+    background-image: url(https://www.qualitydevs.com/wp-content/uploads/2020/11/HTML5-scaled-1288x724.jpg);
+    /* background-image: linear-gradient(to right, #368297 50%, #FFD200 50% ); */
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
 }
 .list3 ul {
@@ -35,7 +38,7 @@ body {
 /* dropdown boton -------------------------------------------------*/
 /* Style The Dropdown Button */
 .dropbtn {
-    background-color: #368297;
+    background: white;
     color: white;
     padding: 10px;
     font-size: 16px;
@@ -99,81 +102,81 @@ body {
     }
 }
 
-/* Form Title*/
-
-.tituloForm p {
-    text-align: center;
-    font-family: Impact;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+/* Galeria de proyectos*/
+.cont-general {
+ 
 }
-
-/* inside form */
-.formdelform {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    
-}
-.formulario{
+.container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: auto;
-    margin-bottom: 50px;
+    justify-content: flex-end;
+    align-items: flex-end;
+
 }
-.formulario form{
-    border-radius: 15px;
-    padding: 50px;
-    background-color:rgba(255, 255, 255, 0.733);
-    box-shadow: 2px 3px 7px rgba(0,0,0,0.4);
+p {
+    color: rgb(209, 209, 209);
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+    width: 35%;
+    padding-left: 10px;
+    padding-right: 10px;  
+    text-align: justify;
     
 }
-input{
-    border-radius: 5px;
-    border: solid 1px rgb(49, 49, 49);
-    border-bottom: solid 1px rgb(107, 107, 107);
-    background: none;
-    margin-bottom: 10px;
-    height: 25px;
-}
-.formulario p input {
-    border: 0;
-    cursor:pointer;
-
-}
-label {
-    font-family: tahoma ;
-    padding: 5px;
-
-}
-#mensajeria {
-    border: 0;
-    background-color: rgba(255, 255, 255, 0.562);
-}
-.bottones {
+.cont-galeria {
     display: flex;
-    justify-content: center;
+    width:  36%;
+    
 }
-.bottones input{
-    border: solid 1px white;
-    border-radius: 15px;
+.project1 {
+    display: flex;
+    flex-wrap: wrap;
+    
     margin: 10px;
-    cursor: pointer;
-    transition: 0.9s; 
-    height: 40px;
-    width: 80px;
+    
 }
-.bottones :hover {
-    transform:scale(1.05, 1.05);
-    transition: 0.3s;
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.226);
-    height: 40px;
-    width: 80px;
-    box-shadow: 2px 3px 7px rgba(0,0,0,0.4);
-    border: 0;
+.project1 img {
+    width: 200px;
+    height: auto;   
+    margin-right: 5px;
+}
+.project1 img:hover {
+    box-shadow: 0px 3px 10px rgba(233, 233, 233, 0.4);
+    border: solid 1px rgb(153, 153, 153);
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        width: 90%;
+        height: auto;
+        text-align: center justify;
+        margin: 10px;
+        margin-top: 50px;
+        color: rgb(43, 42, 42);
+    }
+    
+    .project1 {
+        margin-top: 50px;
+
+    }
+    .project1 img:hover {
+        box-shadow: 0px 3px 10px rgba(2, 2, 2, 0.4);
+        border: solid 1px rgb(153, 153, 153);
+        border-radius: 5px;
+    }
+    body {
+        background: none;
+    }
+
 }
